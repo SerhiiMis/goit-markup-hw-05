@@ -559,6 +559,8 @@ div .portfolio-card {
   font-weight: 500;
   color: var(--white);
   margin-bottom: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .subscribe-form {
@@ -601,6 +603,9 @@ div .portfolio-card {
   color: var(--white);
   border-radius: 4px;
   border: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .subscribe-button-icon {
@@ -642,6 +647,12 @@ div .portfolio-card {
   transition-duration: var(--anim-duration);
   transition-timing-function: var(--anim-timing-function);
   transition-property: transform;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  border: none;
+  background-color: var(--ocean);
 }
 
 .modal-close {
@@ -698,6 +709,11 @@ div .portfolio-card {
 
 .modal-form-wrapper {
   position: relative;
+  margin-bottom: 16px;
+}
+
+.modal-form-input:focus {
+  border-color: #4d5ae5;
 }
 
 .modal-form-input {
@@ -725,6 +741,10 @@ div .portfolio-card {
   transition-duration: var(--anim-duration);
   transition-timing-function: var(--anim-timing-function);
   transition-property: fill;
+}
+
+.modal-form-comment:focus {
+  border-color: #4d5ae5;
 }
 
 .modal-form-comment {
@@ -781,9 +801,13 @@ div .portfolio-card {
   text-decoration: underline;
 }
 
-.modal-button-send:hover,
+.modal-button-send:hover {
+  background-color: #404bbf;
+  border: none;
+}
+
 .modal-button-send:focus {
-  background-color: var(--ocean);
+  background-color: #404bbf;
 }
 
 .modal-button-send {
@@ -793,6 +817,7 @@ div .portfolio-card {
   text-align: center;
   margin: 0 auto;
   border-radius: 4px;
+  border: none;
   background-color: var(--iris);
   color: var(--white);
   font-weight: 500;
