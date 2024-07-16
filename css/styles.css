@@ -823,7 +823,6 @@ div .portfolio-card {
   background-color: #3a47c7;
 }
 
-input[type="checkbox"]:checked + .modal-checkbox-label > .checkbox-span {
-  color: var(--navy-blue-modal);
-  background-color: var(--navy-blue-modal);
+.privacy-link {
+  color: #4d5ae5;
 }
